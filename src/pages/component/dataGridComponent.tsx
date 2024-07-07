@@ -37,10 +37,9 @@ const DataGridComponent: React.FC = () => {
             <DataGrid
               rows={posts}
               columns={columns}
-              pageSize={10}
-              rowsPerPageOptions={[10]}
+              
               checkboxSelection
-              disableSelectionOnClick
+              
               autoHeight
             />
           </div>
